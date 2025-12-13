@@ -4,82 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EnjoyPhysio</title>
-    <link rel="icon" type="image/x-icon" href="images/therapy.png" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <nav class="header__nav">
         <a href="index.html" id="logo" class="header__logo">
           <img
-            src="images/logo.png"
+            src="images/image1.png"
             alt="EnjoyPhysio Logo"
             class="header__logo__img"
           />
         </a>
-        <nav class="header__nav">
-          <ul class="header__menu">
-            <li>
-              <a href="pages/services.html">Services</a>
-            </li>
-            <li>
-              <a href="pages/prices.html">Prices</a>
-            </li>
-            <li>
-              <a href="pages/contact.html">Contact</a>
-            </li>
-          </ul>
-          <ul class="header__icons">
-            <li>
-              <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noreferrer"
-                class="header__icon"
-              >
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.twitter.com"
-                target="_blank"
-                rel="noreferrer"
-                class="header__icon"
-              >
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.squarespace.com"
-                target="_blank"
-                rel="noreferrer"
-                class="header__icon"
-              >
-                <i class="fab fa-squarespace"></i>
-              </a>
-            </li>
-          </ul>
-          <button type="button" class="nav-toggle" id="nav-toggle">
-            <i class="fas fa-bars"></i>
-          </button>
-        </nav>
-      </div>
+        <ul class="header__menu">
+          <li>
+            <a href="pages/services.html">Services</a>
+          </li>
+          <li>
+            <a href="pages/prices.html">Prices</a>
+          </li>
+          <li>
+            <a href="pages/contact.html">Contact</a>
+          </li>
+        </ul>
+        <ul class="header__icons">
+          <li>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noreferrer"
+              class="header__icon"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noreferrer"
+              class="header__icon"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.squarespace.com"
+              target="_blank"
+              rel="noreferrer"
+              class="header__icon"
+            >
+              <i class="fab fa-squarespace"></i>
+            </a>
+          </li>
+        </ul>
+        <button type="button" class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
     </header>
     <main>
       <section class="hero" id="home">
         <div class="hero-banner">
           <h1>Enjoy Physioteraphy</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit et
-            ipsam quasi beatae nam consectetur, voluptatibus sunt sapiente eius
-            ducimus, quia totam porro aspernatur placeat excepturi suscipit
-            adipisci asperiores magni?
+            Expert physiotherapy tailored to your body, your goals, and your
+            lifestyle. We help you recover faster, move stronger, and prevent
+            future injuries.
           </p>
           <a href="#" class="btn hero__btn">Explore more</a>
         </div>
@@ -90,21 +87,24 @@
         </div>
         <div class="section__center">
           <div class="section__image">
-            <img src="images/physiotherapy.png" class="about-photo" alt="" />
+            <img src="images/physio.jpg" class="about-photo" alt="" />
           </div>
           <article class="section__info">
             <h3>Explore the difference</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
-              a cumque voluptatem dicta tenetur sapiente asperiores consequuntur
-              est adipisci, molestiae voluptates iste, praesentium, doloribus
-              veritatis blanditiis vel cupiditate esse ipsum?
+              We are a dedicated physiotherapy clinic committed to helping
+              people move better, feel stronger, and live without pain. Our team
+              of qualified and experienced physiotherapists provides
+              personalized care based on the latest evidence and modern
+              treatment techniques.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-              neque doloribus aliquid, aperiam vero, nam repudiandae suscipit
-              magnam eos eum omnis accusantium facilis excepturi sit quidem amet
-              ullam qui. Cupiditate?
+              We believe that every body is different, which is why we take the
+              time to understand your condition, your goals, and your lifestyle.
+              Whether you are recovering from an injury, dealing with chronic
+              pain, or looking to improve your mobility and performance, we
+              create tailored treatment plans designed to deliver long-lasting
+              results.
             </p>
             <a href="#about" class="section__btn">Read more</a>
           </article>
@@ -131,9 +131,7 @@
             </div>
           </article>
           <article class="article__service">
-            <span class="article__icon"
-              ><i class="fas fa-running"></i
-            ></span>
+            <span class="article__icon"><i class="fas fa-running"></i></span>
             <div class="article__info">
               <h4 class="article__title">Exercise therapy</h4>
               <p class="article__text">
@@ -146,9 +144,7 @@
             </div>
           </article>
           <article class="article__service">
-            <span class="article__icon"
-              ><i class="fas fa-bolt"></i
-            ></span>
+            <span class="article__icon"><i class="fas fa-bolt"></i></span>
             <div class="article__info">
               <h4 class="article__title">Electrotherapy</h4>
               <p class="article__text">
@@ -217,7 +213,11 @@
           </article>
           <article class="section__card">
             <div class="section__card__containerr">
-              <img src="images/ski.png" class="section__card__img" alt="Ski Prep Pack" />
+              <img
+                src="images/ski.png"
+                class="section__card__img"
+                alt="Ski Prep Pack"
+              />
             </div>
             <div class="section__card__info">
               <div class="section__card__title">
@@ -238,7 +238,11 @@
           </article>
           <article class="section__card">
             <div class="section__card__container">
-              <img src="images/wellness.png" class="section__card__img" alt="Wellness Pack" />
+              <img
+                src="images/wellness.png"
+                class="section__card__img"
+                alt="Wellness Pack"
+              />
             </div>
             <div class="section__card__info">
               <div class="section__card__title">
