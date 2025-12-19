@@ -483,6 +483,9 @@ tbody tr:hover{
   width: 20%;
   padding: 0.75rem;
 }
+.table__row__discount{
+  font-weight: 500;
+}
 /*contact us page css*/
 .section__text {
   margin-top: 3rem;
