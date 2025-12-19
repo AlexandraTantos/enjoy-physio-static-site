@@ -85,8 +85,9 @@ if(discountContainer){
         return discountPrice;
     }
 
-    document.addEventListener("DOMContentLoaded", function (){
+    document.addEventListener("DOMContentLoaded", () => {
         const discountedPrice = displayDiscount(exercisePrice,electroPrice,massagePrice,discountPercentage);
         discountContainer.innerHTML = discountedPrice;
     })
 }
+
